@@ -438,3 +438,45 @@ li {margin-right: 20px;
 						-ms-transform:translate(-50%,-50%);
 							transform:translate(-50%,-50%);
 				}
+
+				.rightblock{
+					padding-top: 10px;
+					max-width: 533px;
+				  
+				  }
+
+				  .Photos {
+					margin-top: 450px;
+				  }
+
+				  
+
+				  .text3 {
+					color: #5863f8;
+					font-size: 40px;
+				  }
+				  
+				  .text4 {
+					max-width: 475px;
+					font-size: 20px;
+					color: gray;
+				  }
+
+
+				  .images {
+					margin-top: 54px;
+					display: flex;
+					justify-content: space-between;
+				  }
+
+				  .Photos2 {
+					margin-top: 50px;
+				  }
+
+
+				  
+
+
+
+
+

@@ -503,125 +503,117 @@ li {margin-right: 20px;
 				  }
 
 
-				  .mybanner2{
-					width:100%;
-					height: 350px;
-					background-size: cover;
-					background-position: center;
-					background-repeat: no-repeat;
-					position: relative;
-					opacity: 1;
-					margin-top: 25px;
+
+				  .header-wraper{
+					max-width: 100%;
+					margin: 0 auto;
 				  }
-
-
 				  
+			
 
-				   /* header
+				  .s-1 {
+					padding-top: 50px;
+					margin-top: 10px;
+				}
+				.container {
+					max-width: 100%;
+					width: 80%;
+					height:300px;
+					margin: 0 auto;
+				}
+				
+				.info-box {
+				}
+				.info-box > h2 {
+					font-size: 14px;
+					font-weight: bold;
+					color: #5863f8;
+					margin-bottom: 18px;
+				}
+				
+				.info-box > h3 {
+					font-size: 42px;
+					width: 290px;
+					margin-bottom: 50px;
+				}
+				
+				.form-wrapper {
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+					align-items: flex-start;
+				}
+				.textarea-wrapper {
+					max-width: 700px;
+					width: 100%;
+					margin-right: 20px;
+				}
+				
+				textarea {
+					width: 100%;
+					height: 290px;
+					resize: none;
+					background-color: #f8f8f8;
+					border: 2px solid lightgrey;
+					padding: 24px 20px;
+					outline: none;
+				}
+				
+				textarea::placeholder {
+					font-size: 13px;
+					color: lightgrey;
+				}
+				
+				.input-wrapper {
+					height: 290px;
+				
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+				}
+				
+				input[type="text"],
+				input[type="email"],
+				input[type="submit"] {
+					width: 350px;
+					height: 60px;
+					border: 2px solid lightgrey;
+					padding: 23px 20px;
+					outline: none;
+				}
+				
+				input[type="text"]::placeholder,
+				input[type="email"]::placeholder,
+				input[type="submit"]::placeholder {
+					font-size: 13px;
+					color: lightgrey;
+				}
+				
+				input[type="submit"] {
+					background-color: #5863f8;
+					color: white;
+					font-size: 14px;
+				}
 
-.contact{
-    width: 64px;
-    height: 19px;
-    font-size: 14px;
-    margin-left: 35px;
-}
+				.nav{
+					
+					display: flex;
+					 font-family: 'Lato', sans-serif;
+					 margin-top: 50px;
+					font-size: 15px;
+					font-weight: bold;
+				}
+
+				.mybanner2{
+					width:100%;
+	             height: 250px;
+	             background-position: center;
+	             background-repeat: no-repeat;
+	             position: relative;
+  
+				}
+				
 
 
 
-.contactText{
-    width: 331px;
-    height: 112px;
-    font-size: 42px;
-    margin-left: 35px;
 
-}
-.contactText1{
-    width: 476px;
-    height: 112px;
-    font-size: 42px;
-    margin-left: 35px;
-
-}
-
-
-
-.bannerConteiner{
-    display: flex;
-    margin-top: 54px;
-    
-}
-.baner{
-    
-    font-size:13px;
-    width: 720px;
-    height: 288px;
-    background-color: #E8E8E8;
-    margin-left: 35px;
-
-}
-
-.form{
-
-    margin-left:22px;
-    width: 300px;
-}
-.formitem{
-    
-    width: 100%;
-    height: 60px;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.formButon{
-    width: 100%;
-    background-color:#5863F8;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.contactsection{
-    width: 1029px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 241px;
-    margin-left: 35px;
-    margin-top: 20px;
-}
-.contactItems{
-    width: 180px;
-    margin-left: 100px;
-   text-align: center;
-        
-}
-
-
-.email{
-    color: gray;
-    font-size: 14px;
-
-}
-
-
-.photos{
-    width: 1029px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 241px;
-    margin-left: 35px;
-    margin-top: 20px;
-}
-
-.photosItems{
-    margin-left: 40px;
-    margin-top:35px;
-} */

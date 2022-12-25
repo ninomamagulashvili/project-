@@ -33,7 +33,7 @@
 .geolab{
 position: absolute;
 top:20px;
-left:10px;
+left: 20px;
 
 }
 .landings {
@@ -63,12 +63,12 @@ li {margin-right: 20px;
 	font: normal normal medium 12px/16px Poppins ;
 	letter-spacing: 2.4px;
 	color:black;
-	opacity: 1;
+	opacity: 30px;
 }
  .navigation {
-	max-width: 1366px;
+	max-width: 100%;
 	width: 100%;
-	margin-left: 600px;
+	margin-left: 10px;
 	display: flex;
 	
 	
@@ -613,7 +613,7 @@ li {margin-right: 20px;
 
 				.mybanner2{
 					width:100%;
-	             height: 200px;
+	             height: 370px;
 	             background-position: center;
 	             background-repeat: no-repeat;
 	             position: relative;
@@ -670,14 +670,18 @@ background-color: rgb(247, 242, 242);
 		
 
 	}	
-	
-	
-	.logo4{
-		position: absolute;
-        top:20px;
-        left:80pxpx;
+
+
+	.logo4 {
+		margin-left: 80px;
 	}
 
 
+	.social-icons{
+		display: flex;
+		justify-content: center; 
+	  } 
 
 
+	
+	

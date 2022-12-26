@@ -34,7 +34,10 @@
 position: absolute;
 top:5px;
 left: 95%;
+}
 
+.geolab:hover{	
+	border: 3px solid rgb(186, 186, 202);
 }
 .landings {
 	
@@ -48,6 +51,8 @@ left: 95%;
     font-size: 30px;
 
 }
+
+
 .nav-ul{
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -56,7 +61,19 @@ left: 95%;
     font-size: 15px;
     font-weight: bold;
 }
-li {margin-right: 20px;	
+
+.nav-link:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
+
+
+
+
+.li {margin-right: 20px;	
+}
+
+.li:hover{	
+	border: 3px solid rgb(186, 186, 202);
 }
 
 .nav-a{	
@@ -65,13 +82,19 @@ li {margin-right: 20px;
 	color:black;
 	opacity: 30px;
 }
+
+.nav-a:hover{	
+	border: 3px solid rgb(186, 186, 202);
+}
  .navigation {
 	max-width: 100%;
 	width: 100%;
 	margin-left: 10px;
-	display: flex;
-	
-	
+	display: flex;	
+}
+
+.navigation:hover{	
+	border: 3px solid rgb(186, 186, 202);
 }
  .fa-bars {
     color: white;
@@ -93,9 +116,10 @@ li {margin-right: 20px;
     margin-top: 25px;
 	padding-right: 10px;
 	padding-left: 10px;
-
 	
 }
+
+
 
 .mybanner{
 	width:100%;
@@ -109,9 +133,17 @@ li {margin-right: 20px;
 	padding-left: 10px;
 	margin-right: 10px ;
 
-	
 
 }
+
+.mybanner:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
+
+.mybanner2:hover{
+	border: 3px solid rgb(225, 225, 236);
+}
+	
 	
 
 .header-bg{
@@ -155,6 +187,11 @@ li {margin-right: 20px;
     color:black;
 }
 
+.paragraph:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
+	
+
 .chat-wraper{
 	position: fixed;
 	display: block;
@@ -179,6 +216,12 @@ li {margin-right: 20px;
 }
 
 
+	.imabed:hover{
+		border: 3px solid rgb(186, 186, 202);
+
+	}
+
+
 .imgbedh1{
     font-size: 30px;
     margin-bottom: 20px;
@@ -192,6 +235,12 @@ li {margin-right: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
+
+.imgbedh1:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
+	
+
 .imabedp1{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -205,6 +254,10 @@ li {margin-right: 20px;
     color: grey;
     word-spacing: 5px;
     letter-spacing: 2px;
+}
+
+.imabedp1:hover{
+	border: 3px solid rgb(186, 186, 202);
 }
 
 
@@ -225,12 +278,18 @@ li {margin-right: 20px;
 	margin-top: 30px;
 	margin-left: 50px;
 }
+
+.nav:hover{	
+	border: 3px solid rgb(186, 186, 202);
+}
 .name{
 	font-size: 20px;
 	font-style: bold;
     margin-top: 10px;
     margin-left: 10px;
 }
+
+
 .ul{
 	display: inline-block;
 	
@@ -238,21 +297,31 @@ li {margin-right: 20px;
 	vertical-align: top;
 }
 
+.ul:hover{	
+	border: 3px solid rgb(186, 186, 202);
+}
+
 .list{
 	margin-left: 10px;
 	margin-top: 10px;
 	opacity:0.5;
 }
+
+.list:hover{	
+	border: 3px solid rgb(186, 186, 202);
+}
 .nav-b{
 	color:black;
 }
 
-.footer{
+
+
+/* .footer{
 	font-size: 10px;
 	opacity:0.5;
 	margin-left:  900px;
 	margin-bottom:50px;
-}
+} */
 
 
 .header-am{
@@ -284,10 +353,19 @@ li {margin-right: 20px;
 	margin-left: 60px;
 
 }
+
+.p2:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
+
 .paragraph2{
     font-size: 40px;
     font-family: 'Lato', sans-serif;
     color:rgb(46, 43, 43);
+}
+
+.paragraph2:hover{
+	border: 3px solid rgb(186, 186, 202);
 }
 
 .container{
@@ -295,6 +373,8 @@ li {margin-right: 20px;
 	width: 100%;
 	margin:0 auto;
 }
+
+
 
 .line1{
 
@@ -337,6 +417,8 @@ li {margin-right: 20px;
 }
 
 
+
+
 .icon-box{ 
 	border-radius: 50%;
 	display: -webkit-box;
@@ -359,9 +441,14 @@ li {margin-right: 20px;
 	opacity: 1;
 
 }
+
 .fa-car{
 	font-size: 25px;
 	color:lightseagreen;
+	}
+
+	.fa-car:hover{
+		border: 3px solid rgb(186, 186, 202);
 	}
 
 
@@ -376,6 +463,10 @@ li {margin-right: 20px;
 		font-weight: bold;
 	}
 
+	.headertext:hover{
+		border: 3px solid rgb(186, 186, 202);
+	}
+
 	.text{
 		max-width: 250px;
 		width: 100%;
@@ -388,14 +479,29 @@ li {margin-right: 20px;
 		opacity: 0.65;
 	}
 
+	.text:hover{
+		border: 3px solid rgb(186, 186, 202);
+	}
+
 	.fa-arrow-up{
 		font-size: 25px;
 		color:lightseagreen;
 		}
 
+		.fa-arrow-up:hover{
+			border: 3px solid rgb(186, 186, 202);
+		}
+
+
+
+
 		.fa-person-booth{
 			color:lightseagreen;
 		font-size: 25px;
+		}
+
+		.fa-person-booth:hover{
+			border: 3px solid rgb(186, 186, 202);
 		}
 
 		.fa-square{
@@ -403,15 +509,22 @@ li {margin-right: 20px;
 		font-size: 25px;
 		}
 
+		.fa-square:hover{
+			border: 3px solid rgb(186, 186, 202);
+		}
+
 		.fa-globe{
 			font-size: 25px;
 			color:lightseagreen;
 			}
 
-			.fa-wifi{
-				font-size: 25px;
-				color:lightseagreen;
-				}
+			.fa-globe:hover{
+				border: 3px solid rgb(186, 186, 202);
+			}
+
+
+
+	
 
 				.header-rm{
 					width:100%;
@@ -428,6 +541,7 @@ li {margin-right: 20px;
 				}
 
 
+
 				.header-g{
 			
 					max-width: 100%;
@@ -441,8 +555,12 @@ li {margin-right: 20px;
 					opacity: 1;
 					margin-top: 25px;
 					
-					
 				}
+
+				
+
+
+
 
 				.title-headerrm {
 					max-width: 100%;
@@ -457,6 +575,9 @@ li {margin-right: 20px;
 							transform:translate(-50%,-50%);
 				}
 
+
+
+
 				.rightblock{
 					padding-top: 10px;
 					max-width: 533px;
@@ -469,18 +590,29 @@ li {margin-right: 20px;
 					padding-right: 10px;
 				  }
 
+
+				  
+
 				  
 
 				  .text3 {
 					color: #5863f8;
 					font-size: 40px;
 				  }
+
+				  .text3:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
 				  
 				  .text4 {
 					max-width: 475px;
 					font-size: 20px;
 					color: gray;
 				  }
+
+				  .text4:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
 
 
 				  .images {
@@ -491,9 +623,17 @@ li {margin-right: 20px;
 					padding-right: 10px;
 				  }
 
+				  .images:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
+
 				  .Photos2 {
 					margin-top: 50px;
 				  }
+
+				  .Photos2:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
 
 
 				  .breakfast{
@@ -509,7 +649,7 @@ li {margin-right: 20px;
 					
 				  }
 
-
+				
 
 				
 
@@ -517,6 +657,10 @@ li {margin-right: 20px;
 					color:  rgb(33, 32, 32);
 					font-size: 70px;
 				  }
+
+				  .text5:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
 				  
 				  .text6{
 					max-width: 475px;
@@ -526,13 +670,17 @@ li {margin-right: 20px;
 					
 				  }
 
+				  .text6:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
+
 
 
 				  .header-wraper{
 					max-width: 100%;
 					margin: 0 auto;
 				  }
-				  
+
 			
 
 				  .s-1 {
@@ -540,13 +688,19 @@ li {margin-right: 20px;
 					scroll-margin-top: 5px;
 					margin-top: 5px;
 				}
+
+
+				
+
 				.container3 {
 					max-width: 100%;
 					width: 80%;
 					height:350px;
 					margin: 0 auto;
-						}
-				
+					}
+
+
+					
 				
 				.info-box > h2 {
 					font-size: 14px;
@@ -554,6 +708,12 @@ li {margin-right: 20px;
 					color: #5863f8;
 					margin-bottom: 18px;
 				}
+
+				.info-box > h2:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
+
+
 				
 				.info-box > h3 {
 					font-size: 42px;
@@ -566,6 +726,10 @@ li {margin-right: 20px;
 					flex-direction: row;
 					justify-content: space-between;
 					align-items: flex-start;
+				}
+
+				.form-wrapper :hover{
+					border: 3px solid rgb(186, 186, 202);
 				}
 				.textarea-wrapper {
 					max-width: 700px;
@@ -627,6 +791,9 @@ li {margin-right: 20px;
 					font-size: 15px;
 					font-weight: bold;
 				}
+				.nav:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
 
 				.mybanner2{
 					width:100%;
@@ -639,19 +806,36 @@ li {margin-right: 20px;
   
 				}
 
+				.mybanner2:hover{
+					border: 3px solid rgb(186, 186, 202);
+				}
+
 
 				/*FOOTER*/
 .footer1{
 	background: #f0c513;
 	padding: 10px 0;
 }
+
+.footer1:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
 .social2{
 	text-align: center;
+}
+
+.social2 :hover{
+	border: 3px solid rgb(186, 186, 202);
 }
 .social-li2{
 	display: inline-block;
 	margin-right:10px;
 }
+
+.social-li2:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
+
 .social-icon2{
 	border: solid #000000 1px;
     width: 40px;
@@ -665,7 +849,11 @@ li {margin-right: 20px;
     -o-transition:  all .2s linear .2s;
     transition:  all .2s linear .2s;       
 }
+
+
+
 .social-icon:hover2{
+	border: 2px solid rgb(179, 179, 198);
 	background-color: #F9C402;
 	color:black;
 }
@@ -683,17 +871,29 @@ background-color: rgb(247, 242, 242);
 	color:black;
   }
 
+
+  .geirgia:hover{
+	border: 3px solid rgb(186, 186, 202);
+}
+
 	.imagesList{
 		display: flex;
 		justify-items: end;
 		
 
 	}	
+	.imagesList:hover{
+		border: 3px solid rgb(186, 186, 202);
+	}
 
 
 	.logo4 {
 		margin-left: 40%;
 	
+	}
+
+	.logo4:hover{
+		border: 3px solid rgb(186, 186, 202);
 	}
 
 
@@ -702,6 +902,9 @@ background-color: rgb(247, 242, 242);
 		justify-content: center; 
 		margin-left: 130px;
 	  } 
+
+	  .social-icons:hover{
+		border: 3px solid rgb(186, 186, 202);}
 
 
 	

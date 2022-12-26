@@ -32,8 +32,8 @@
 
 .geolab{
 position: absolute;
-top:20px;
-left: 20px;
+top:5px;
+left: 95%;
 
 }
 .landings {
@@ -103,6 +103,8 @@ li {margin-right: 20px;
 	position: relative;
     opacity: 1;
     margin-top: 25px;
+	padding-left: 7px;
+	margin-right: 7px ;
 
 	
 
@@ -429,6 +431,7 @@ li {margin-right: 20px;
 					position: relative;
 					opacity: 1;
 					margin-top: 25px;
+					
 				}
 
 				.title-headerrm {
@@ -617,6 +620,8 @@ li {margin-right: 20px;
 	             background-position: center;
 	             background-repeat: no-repeat;
 	             position: relative;
+				 padding-left: 7px;
+				 padding-right: 7px;
   
 				}
 
@@ -673,13 +678,15 @@ background-color: rgb(247, 242, 242);
 
 
 	.logo4 {
-		margin-left: 80px;
+		margin-left: 40%;
+	
 	}
 
 
 	.social-icons{
 		display: flex;
 		justify-content: center; 
+		margin-left: 130px;
 	  } 
 
 

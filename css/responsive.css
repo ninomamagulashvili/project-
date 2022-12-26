@@ -18,6 +18,7 @@
 
         .nav-a{
             font-size: 12px;
+            display: none;
         }
         .fa-facebook{
             font-size: 15px;
@@ -43,11 +44,9 @@
             font-size:15px ;
          }
 
-         .container {
-            max-width: 1124px;
-            width: 100%; 
-            flex-wrap: wrap;
-       }
+        .container {
+        width: 95%;
+    }
        .headertext{
            font-size: 15px;
        }
@@ -85,7 +84,8 @@
     
             .nav  {
                 max-width: 480px;
-                 width: 100%;    
+                 width: 100%;  
+                 display: none;  
                 }
             .ul{
                 max-width: 480px;

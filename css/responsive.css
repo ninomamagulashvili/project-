@@ -1,0 +1,145 @@
+@media only screen and (min-device-width: 758px) and (max-device-width: 100%) {
+    .header-wraper{
+        max-width: 1124px;
+        width: 100%;
+        height: auto;
+    }
+
+    .landings{
+        font-size: 25px;
+    }
+
+    .geolab{
+        position: absolute;
+        top:5px;
+        left: 95%;
+        
+        }
+
+        .nav-a{
+            font-size: 12px;
+        }
+        .fa-facebook{
+            font-size: 15px;
+        }
+        .fa-instagram{
+            font-size: 15px;
+        }
+        .title-header{
+            font-size: 70px;
+            
+        }
+        .title-headerrm{
+            font-size: 70px;
+        }
+        .navigation{
+            font-size: 30px;
+        }
+
+        .imgbedh1{
+            font-size:20px ;
+         }
+         .paragraph{
+            font-size:15px ;
+         }
+
+         .container {
+            max-width: 1124px;
+            width: 100%; 
+            flex-wrap: wrap;
+       }
+       .headertext{
+           font-size: 15px;
+       }
+       .btn-submit{
+        max-width: 200px;
+        width: 100%;
+    }
+
+  
+
+}
+
+
+/* 480 */
+@media only screen and (min-device-width: 480px) and (max-device-width: 851px){
+    .header-wraper{
+        max-width: 480px;
+        width: 100%;
+        height: auto;
+       
+    }
+
+   
+
+        .landings{
+            font-size: 10px;
+        }
+    
+        .geolab{
+            position: absolute;
+            top:5px;
+            left: 95%;
+            
+            }
+    
+            .nav  {
+                max-width: 480px;
+                 width: 100%;    
+                }
+            .ul{
+                max-width: 480px;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+            .fa-facebook{
+                font-size: 10px;
+            }
+            .fa-instagram{
+                font-size: 10px;
+            }
+            .title-header{
+                font-size: 25px;
+                
+            }
+            .title-headerrm{
+                font-size: 25px;
+            }
+            .navigation{
+                font-size: 30px;
+            }
+    
+            .imgbedh1{
+                font-size:20px ;
+             }
+             .paragraph{
+                font-size:15px ;
+             }
+    
+             .contact{
+                font-size: 7.5px;
+                }
+                .info{
+                font-size: 10px;
+                }
+                .infoaddress{
+                 font-size: 10px;
+                }
+            .map{
+                max-width: 200px;
+                width: 100%;
+            }
+            .section-form{
+                max-width: 200px;
+                width:100%;
+            }
+            .btn-submit{
+                max-width: 100px;
+                width: 100%;
+            }
+        }
+        
+        
+    
+    
+    
